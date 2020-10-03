@@ -57,7 +57,7 @@ function createBanana() {
 
 function spawnObstacles() {
 
-  if(frameCount % 100 === 0) {
+  if(frameCount % 300 === 0) {
 
     obstacles = createSprite(720,370);
     obstacles.addImage(obstaclesImage);
